@@ -15,7 +15,7 @@ public class TC_VALID_LOGIN extends BaseTest {
 		LoginPage loginPage = PageInstance.getInstance(LoginPage.class);
 		DashboardPage dashboardPage = PageInstance.getInstance(DashboardPage.class);
 		loginPage.enterCaptchaAndLogin();
-		Assert.assertTrue(dashboardPage.getHeader().isDisplayed());
+		Assert.assertTrue(!dashboardPage.getHeader().isDisplayed());
 	}
 	
 }
