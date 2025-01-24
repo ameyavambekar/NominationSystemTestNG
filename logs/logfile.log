@@ -3345,3 +3345,14 @@ Session ID: 43871b9d28bae314826c5f56ae6a8f19
 2025-01-23 15:33:54,079 +0530 [main] INFO  (LoggerUtil.java:19) - Number of testcases Failed : 0
 2025-01-23 15:33:54,079 +0530 [main] INFO  (LoggerUtil.java:19) - Number of testcases Skipped  : 0
 2025-01-23 15:33:54,079 +0530 [main] INFO  (LoggerUtil.java:19) - ************************** Test Execution Finished ************************************
+2025-01-24 11:25:09,416 +0530 [main] INFO  (LoggerUtil.java:19) - Test: Login with valid credentials started.
+2025-01-24 11:25:11,435 +0530 [main] INFO  (LoggerUtil.java:19) - Login with valid credentials: Test Failed expected [true] but found [false]
+2025-01-24 11:25:12,793 +0530 [main] INFO  (LoggerUtil.java:19) - Test: Invalid password started.
+2025-01-24 11:25:13,141 +0530 [main] INFO  (LoggerUtil.java:19) - Invalid password: Test Passed
+2025-01-24 11:25:14,214 +0530 [main] INFO  (LoggerUtil.java:19) - Test: Invalid Username started.
+2025-01-24 11:25:14,617 +0530 [main] INFO  (LoggerUtil.java:19) - Invalid Username: Test Passed
+2025-01-24 11:25:14,826 +0530 [main] INFO  (LoggerUtil.java:19) - Total number of testcases : 3
+2025-01-24 11:25:14,826 +0530 [main] INFO  (LoggerUtil.java:19) - Number of testcases Passed : 2
+2025-01-24 11:25:14,826 +0530 [main] INFO  (LoggerUtil.java:19) - Number of testcases Failed : 1
+2025-01-24 11:25:14,826 +0530 [main] INFO  (LoggerUtil.java:19) - Number of testcases Skipped  : 0
+2025-01-24 11:25:14,826 +0530 [main] INFO  (LoggerUtil.java:19) - ************************** Test Execution Finished ************************************

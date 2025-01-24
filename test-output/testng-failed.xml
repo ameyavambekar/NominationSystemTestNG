@@ -5,17 +5,17 @@
     <listener class-name="listeners.LogListener"/>
     <listener class-name="listeners.ReportListener"/>
   </listeners>
-  <test thread-count="5" name="Teaching Experience(failed)">
+  <test thread-count="5" name="Login(failed)">
     <classes>
-      <class name="tests.TC_EDUCATIONAL_QUALIFICATIONS_MANDATORY_FIELDS">
+      <class name="tests.TC_VALID_LOGIN">
         <methods>
+          <include name="loginTest"/>
           <include name="globalSetup"/>
           <include name="wrapUp"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="mandatoryFieldsTest"/>
         </methods>
-      </class> <!-- tests.TC_EDUCATIONAL_QUALIFICATIONS_MANDATORY_FIELDS -->
+      </class> <!-- tests.TC_VALID_LOGIN -->
     </classes>
-  </test> <!-- Teaching Experience(failed) -->
+  </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [Suite] -->
